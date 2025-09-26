@@ -1,15 +1,15 @@
 text = "Danya"
-number = 18
-floatN = 18.4
+number = 123123123
+floatN = 67.3
 a = True
 
 def task2():
     print(text, number)
 
 def task3():
-    number_1 = 342
-    number_2 = 56.2
-    number_3 = "43"
+    number_1 = 567
+    number_2 = 23.4
+    number_3 = "22"
     result = number_1 + number_2 + int(number_3)
     print(result)
 
@@ -71,11 +71,10 @@ def task11():
 def task12():
     a = input()
     if len(a) < 10:
-        print("Введите другое число.")
+        print("Введите другое число")
     else:
         print(a[:4])
         print(a[-2:])
         print(a[4:8])
         print(a[::-1])
 
-task2()
