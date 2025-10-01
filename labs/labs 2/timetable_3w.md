@@ -46,22 +46,4 @@
 | 18:30-20:00 | Безопасность жизнедеятельности | Система электронного обучения |
 | 20:10-21:30 | Безопасность жизнедеятельности | Система электронного обучения |
 
-<a href="../timetables.md" class="Nazad-button">Назад</a>
-<style>
-.Nazad-button {
-     background-color: White;
-     color: Black;
-     padding: 10px 20px;
-     text-decoration: none;
-     border-radius: 20px;
-     display: inline-block;
-     border: 2px solid #000000ff;
-     border-radius:25px;
-     cursor: pointer;
-     font-size: 30px;
-}
-.Nazad-button:hover{
-    background-color: #007bff;
-    transform: translateX(-3px) translateY(-3px)
-}
-</style>
+<a href="../timetables.md" style="display: inline-block; background: white; color: black; padding: 12px 24px; text-decoration: none; border: 2px solid #000; border-radius: 25px; font-size: 18px; font-weight: bold; margin: 10px 0;">← Назад к расписанию</a>
