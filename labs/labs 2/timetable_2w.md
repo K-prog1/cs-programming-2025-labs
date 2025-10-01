@@ -42,4 +42,23 @@
 | Время | Дисциплина | Аудитория |
 |-------|------------|-----------|
 | 18:30-20:00 | Физическая культура и спорт | Система электронного обучения |
-    
+
+<a href="../timetables.md" class="Nazad-button">Назад</a>
+<style>
+.Nazad-button {
+     background-color: White;
+     color: Black;
+     padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 20px;
+     display: inline-block;
+     border: 2px solid #000000ff;
+     border-radius:25px;
+     cursor: pointer;
+     font-size: 30px;
+}
+.Nazad-button:hover{
+    background-color: #007bff;
+    transform: translateX(-3px) translateY(-3px)
+}
+</style>
