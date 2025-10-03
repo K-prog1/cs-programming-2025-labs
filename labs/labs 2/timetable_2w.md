@@ -43,4 +43,4 @@
 |-------|------------|-----------|
 | 18:30-20:00 | Физическая культура и спорт | Система электронного обучения |
 
-<a href="timetables.md" style="display: inline-block; background: white; color: black; padding: 12px 24px; text-decoration: none; border: 2px solid #000; border-radius: 25px; font-size: 18px; font-weight: bold; margin: 10px 0;">← Назад к расписанию</a>
+[<-- Вернуться назад](./timetables.md)
