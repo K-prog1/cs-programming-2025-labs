@@ -36,10 +36,34 @@ def task_5():
         a -= 1
         print(a)
 
+
 def task_6():
-    fibbanachi = int(input("Введите число "))
+    a, b = 0, 1
+    for i in range(int(input("Введите число: "))+1):
+        print(f"F({i}) = {a}")
+        a, b = b, a + b  
+
+def task_7():
+    n = input("Введите строку: ")  
+    result = ""  
     
- 
+    for index, char in enumerate(n):
+        result += char + str(index) 
+    
+    print("Результат:", result)
+
+def task_8():
+    while True:
+        a = int(input('Введите первое число или цифру: '))
+        b = int(input('Введите второе число или цифру: '))
+        c = a+b
+        print(f"сумма чисел: {c}")
+task_8()
+        
+        
+
+        
+
 
     
 
