@@ -6,7 +6,7 @@ def task_1():
 
 def task_2():
     numb = int(input('Введите число от 1 до 9: '))
-    if numb <= 9:
+    if 0 < numb <= 9:
         for b in range(1,10):
             print(f'{numb}*{b}= {numb*b}')
     else:
@@ -54,12 +54,12 @@ def task_7():
 
 def task_8():
     while True:
-        a = int(input('Введите первое число или цифру: '))
-        b = int(input('Введите второе число или цифру: '))
-        c = a+b
-        print(f"сумма чисел: {c}")
-task_8()
-        
+        number = input("Введите число через пробел:").split(' ')
+        result = int(number[0])+int(number[1])
+        print(f"сумма чисел: {result}")
+
+task_6()
+
         
 
         
