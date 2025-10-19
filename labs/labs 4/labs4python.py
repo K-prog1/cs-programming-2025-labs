@@ -50,6 +50,7 @@ def task_4():
         print("Не делиться на 3")
 
 def task_5():
+    problem_password = []
     password = input("ВВедите пароль: ")
     spec_simvols = ".,:;!_*-+()/#¤%&"
 
@@ -62,7 +63,7 @@ def task_5():
     if len(password) >= 8:
         len_passsword = True
     else:
-        print("Код должен быть 8 строчным")
+        problem_password.append("8 символов в коде")
 
     for i in password:
         if i.isupper():
@@ -76,14 +77,29 @@ def task_5():
     if (len_passsword and has_lower and has_number and has_spec_simvols and has_upper) == True:
         print("Пароль надежный! Он подходит")
     
-    if not has_lower:
-        print("Нетус строчных")
-    if not has_number:
-        print("Нетуc цифр")
-    if not has_spec_simvols:
-        print("Нетус спец символов")
-    if not has_upper:
-        print("Нетус заглавных")
+    else:
+        if not has_lower:
+            problem_password.append("строчных букв")
+        if not has_number:
+            problem_password.append("цифр")
+        if not has_spec_simvols:
+            problem_password.append("спец символов")
+        if not has_upper:
+            problem_password.append("отсутствуют заглавные")
+        print(f"У вас отсутствуют: {", ".join(problem_password)}") 
 
-task_5()
+def task_6():
+    try:
+        year = int(input("Введите год для проверки на его високосность: "))
+     
+        if ((year % 4 == 0) and (year % 100 !=0)) or year % 400 == 0:
+            print(f"{year} - Год високосный")
+        else:
+            print(f"{year} - Год не високосный")
+    except:
+        print("Введи норм цифры")
+task_6()
+
+
+        
             
