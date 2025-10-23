@@ -87,7 +87,7 @@ def task_5():
         if not has_upper:
             problem_password.append("отсутствуют заглавные")
         print(f"У вас отсутствуют: {", ".join(problem_password)}") 
-
+ 
 def task_6():
     try:
         year = int(input("Введите год для проверки на его високосность: "))
@@ -97,8 +97,22 @@ def task_6():
         else:
             print(f"{year} - Год не високосный")
     except:
-        print("Введи норм цифры")
-task_6()
+        print("Введи цифры, а не чепуху")
+
+def task_7():
+    number = int(input("Введите три числа: "))
+    if len(str(number)) == 3:
+        b = list(str(number))
+        if int(b[0])>=int(b[1])<=int(b[2]):
+            print(int(b[1]))
+        elif int(b[1])>=int(b[0])<=int(b[2]):
+            print(int(b[0]))
+        elif int(b[1])>=int(b[2])<=int(b[0]):
+            print(int(b[2]))
+        
+    else:
+        print("Введено не требовательное количество цифр")
+
 
 
         
