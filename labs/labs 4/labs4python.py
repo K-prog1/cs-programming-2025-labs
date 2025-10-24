@@ -152,4 +152,4 @@ def task_10():
         print(f"{chislo} - простое число")
     else:
         print(f"{chislo} - составное число")
-task_10()
+
