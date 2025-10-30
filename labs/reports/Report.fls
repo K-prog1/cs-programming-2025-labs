@@ -248,9 +248,6 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
-INPUT ./listing_styles.tex
-INPUT ./listing_styles.tex
-INPUT listing_styles.tex
 INPUT c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty

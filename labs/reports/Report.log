@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.25)  31 OCT 2025 00:15
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.25)  31 OCT 2025 00:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1026,26 +1026,6 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (./listing_styles.tex
-
-Package fontspec Info: 
-(fontspec)             Font family 'Consolas(0)' created for font 'Consolas'
-(fontspec)             with options
-(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Consolas/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Consolas/B/OT:script=latn;language=dflt;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Consolas/I/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Consolas/BI/OT:script=latn;language=dflt;"
-
-)
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
 (scrartcl)           because of handling of possible bookmark level gaps.
@@ -1186,7 +1166,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Consolas(0)/m/n on input line 17.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
@@ -1194,7 +1174,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Consolas(0)/b/n on input line 17.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 17.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1262,36 +1242,40 @@ Package fontspec Info:
 
 [2
 
-] (./Report.toc)
+]
+
+[3] (./Report.toc)
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
 
 
-[3]
-Overfull \hbox (2.78613pt too wide) in paragraph at lines 101--101
+[2
+
+]
+Overfull \hbox (2.78613pt too wide) in paragraph at lines 102--102
 []\TU/Arial(0)/m/n/14 1 [] 
  []
 
 
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 104--104
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 105--105
 []\TU/Arial(0)/m/n/13 1.1 [] 
  []
 
 
-LaTeX Warning: Reference `fig:task1' on page 4 undefined on input line 105.
+LaTeX Warning: Reference `fig:task1' on page 3 undefined on input line 106.
 
 
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 107.
+(hyperref)                removing `\\' on input line 109.
 
 (c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 ) (c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [4
+) [3
 
 
 ] (./Report.aux)
@@ -1308,12 +1292,12 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36347 strings out of 468387
- 797573 string characters out of 5444258
- 1805360 words of memory out of 5000000
- 64462 multiletter control sequences out of 15000+600000
- 631185 words of font info for 96 fonts, out of 8000000 for 9000
+ 36313 strings out of 468387
+ 796763 string characters out of 5444258
+ 1803825 words of memory out of 5000000
+ 64446 multiletter control sequences out of 15000+600000
+ 631105 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 122i,9n,121p,11272b,32913s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,12n,121p,11272b,32821s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Report.xdv (4 pages, 56800 bytes).
+Output written on Report.xdv (5 pages, 57232 bytes).
