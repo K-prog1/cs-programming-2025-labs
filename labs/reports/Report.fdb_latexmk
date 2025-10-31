@@ -1,23 +1,33 @@
 # Fdb version 4
-["biber Report"] 1761835343.28523 "Report.bcf" "Report.bbl" "Report" 1761835355.24409 0
-  "Report.bcf" 1761835354 107247 7e9aed61e0ec04b9544b5e8ed23ba8db "xelatex"
+["biber Report"] 1761868566.94238 "Report.bcf" "Report.bbl" "Report" 1761870574.35557 0
+  "Report.bcf" 1761870572 107247 7e9aed61e0ec04b9544b5e8ed23ba8db "xelatex"
   (generated)
   "Report.bbl"
   "Report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1761835354.40321 "Report.xdv" "Report.pdf" "Report" 1761835355.25293 0
-  "Report.xdv" 1761835354 57232 1d0a2a199bc72bb8462c76c33d37e905 "xelatex"
+["xdvipdfmx"] 1761870573.44786 "Report.xdv" "Report.pdf" "Report" 1761870574.36502 0
+  "Report.xdv" 1761870573 256052 584c0e4bd3a76ed1cc92eb71067fb125 "xelatex"
   (generated)
   "Report.pdf"
   (rewritten before read)
-["xelatex"] 1761835349.78201 "c:/Users/User/Documents/cs-programming-2025-labs/labs/reports/Report.tex" "Report.xdv" "Report" 1761835355.24432 0
-  "Report.aux" 1761835354 1364 e50bb10f2c6c1e1f5a7412738da72105 "xelatex"
-  "Report.bbl" 1761835345 0 d41d8cd98f00b204e9800998ecf8427e "biber Report"
-  "Report.log" 1761835354 55320 51143842eeca4faec2137ff71118f5c7 "xelatex"
-  "Report.run.xml" 1761835354 2304 872ccf3b7f21aede8cdf078590d49d7e "xelatex"
-  "Report.tex" 1761835338 7341 19b987befbd6e5ac0c97a412247eb920 ""
-  "Report.toc" 1761835354 201 17c51491fd897c07857b18705230f3d2 "xelatex"
-  "c:/Users/User/Documents/cs-programming-2025-labs/labs/reports/Report.tex" 1761835338 7341 19b987befbd6e5ac0c97a412247eb920 ""
+["xelatex"] 1761870568.21655 "c:/Users/User/Documents/cs-programming-2025-labs/labs/reports/Report.tex" "Report.xdv" "Report" 1761870574.35579 0
+  "../ImgForLaTexReport/labs4python/task1.py" 1761865672 311 dd922d632d01a198eadd5fc9c6f0c27d ""
+  "../ImgForLaTexReport/labs4python/task10.py" 1761870562 304 d1a91c1348ad3763a3f08b51d82c43ce ""
+  "../ImgForLaTexReport/labs4python/task2.py" 1761866933 499 7bed0e12492b63bc26fbf8618699a219 ""
+  "../ImgForLaTexReport/labs4python/task3.py" 1761867149 609 3a460d5ad91b3522cb65dc58fe0c3be0 ""
+  "../ImgForLaTexReport/labs4python/task4.py" 1761868917 279 0310914957780ace13db1a62a85774fd ""
+  "../ImgForLaTexReport/labs4python/task5.py" 1761869341 1311 3e97203b663e2f514b23bb4b70044345 ""
+  "../ImgForLaTexReport/labs4python/task6.py" 1761869666 431 32d7119d11c47208aea1597634302038 ""
+  "../ImgForLaTexReport/labs4python/task7.py" 1761869902 487 5762a990630207709e9adde5d62e60fe ""
+  "../ImgForLaTexReport/labs4python/task8.py" 1761870055 510 0422624b706319367d7c411c351c68d4 ""
+  "../ImgForLaTexReport/labs4python/task9.py" 1761870211 360 0914084be1a652fd2625b1131ebc4521 ""
+  "Report.aux" 1761870572 6694 85dbe3188b1fcefcbff9285e62f60b3e "xelatex"
+  "Report.bbl" 1761868568 0 d41d8cd98f00b204e9800998ecf8427e "biber Report"
+  "Report.log" 1761870573 107195 c4d63976cd0a921795b8fc52ac3c1100 "xelatex"
+  "Report.run.xml" 1761870573 2304 872ccf3b7f21aede8cdf078590d49d7e "xelatex"
+  "Report.tex" 1761870562 27550 2c368dc0719fab3e67219678f968c4ad ""
+  "Report.toc" 1761870573 943 458512d07b91a59488c5967228909776 "xelatex"
+  "c:/Users/User/Documents/cs-programming-2025-labs/labs/reports/Report.tex" 1761870562 27550 2c368dc0719fab3e67219678f968c4ad ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761315981 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1761324927 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1761313374 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -29,6 +39,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1761313374 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1761313374 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1761313374 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1761313374 768 1321e9409b4137d6fb428ac9dc956269 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf" 1761311996 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-russian/russianb.ldf" 1761312058 27193 cd3440b122aaa8e30416378ef38b3173 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty" 1761311969 145885 784cdd1ebbc3dbacabd5ee30707617a3 ""
@@ -124,6 +135,7 @@
   "c:/texlive/2025/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1761318095 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg" 1761318303 1865 301ae3c26fb8c0243307b619a6aa2dd3 ""
   "c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty" 1761318303 81640 997090b6c021dc4af9ee00a97b85c5b4 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty" 1761318303 206518 4eb59a801ad842a713fa168c34227290 ""
   "c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty" 1761318303 77051 be68720e5402397a830abb9eed5a2cb4 ""
   "c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty" 1761318303 353 9024412f43e92cd5b21fe9ded82d0610 ""
   "c:/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def" 1761318390 1620 fb1c32b818f2058eca187e5c41dfae77 ""
