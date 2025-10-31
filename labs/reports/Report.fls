@@ -248,6 +248,9 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+INPUT ./listing_styles.tex
+INPUT ./listing_styles.tex
+INPUT listing_styles.tex
 INPUT c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
@@ -300,7 +303,6 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT ../ImgForLaTexReport/labs4python/task1.py
 INPUT ../ImgForLaTexReport/labs4python/task1.py
 INPUT ../ImgForLaTexReport/labs4python/task1.py
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ../ImgForLaTexReport/labs4python/task2.py
 INPUT ../ImgForLaTexReport/labs4python/task2.py
 INPUT ../ImgForLaTexReport/labs4python/task2.py

@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber Report"] 1761868566.94238 "Report.bcf" "Report.bbl" "Report" 1761870574.35557 0
-  "Report.bcf" 1761870572 107247 7e9aed61e0ec04b9544b5e8ed23ba8db "xelatex"
+["biber Report"] 1761868566.94238 "Report.bcf" "Report.bbl" "Report" 1761871043.49946 0
+  "Report.bcf" 1761871042 107247 7e9aed61e0ec04b9544b5e8ed23ba8db "xelatex"
   (generated)
   "Report.bbl"
   "Report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1761870573.44786 "Report.xdv" "Report.pdf" "Report" 1761870574.36502 0
-  "Report.xdv" 1761870573 256052 584c0e4bd3a76ed1cc92eb71067fb125 "xelatex"
+["xdvipdfmx"] 1761871042.6251 "Report.xdv" "Report.pdf" "Report" 1761871043.50975 0
+  "Report.xdv" 1761871042 288620 2a74621e91745fa6aeccf0dac8699432 "xelatex"
   (generated)
   "Report.pdf"
   (rewritten before read)
-["xelatex"] 1761870568.21655 "c:/Users/User/Documents/cs-programming-2025-labs/labs/reports/Report.tex" "Report.xdv" "Report" 1761870574.35579 0
+["xelatex"] 1761871037.73735 "c:/Users/User/Documents/cs-programming-2025-labs/labs/reports/Report.tex" "Report.xdv" "Report" 1761871043.4997 0
   "../ImgForLaTexReport/labs4python/task1.py" 1761865672 311 dd922d632d01a198eadd5fc9c6f0c27d ""
   "../ImgForLaTexReport/labs4python/task10.py" 1761870562 304 d1a91c1348ad3763a3f08b51d82c43ce ""
   "../ImgForLaTexReport/labs4python/task2.py" 1761866933 499 7bed0e12492b63bc26fbf8618699a219 ""
@@ -21,13 +21,13 @@
   "../ImgForLaTexReport/labs4python/task7.py" 1761869902 487 5762a990630207709e9adde5d62e60fe ""
   "../ImgForLaTexReport/labs4python/task8.py" 1761870055 510 0422624b706319367d7c411c351c68d4 ""
   "../ImgForLaTexReport/labs4python/task9.py" 1761870211 360 0914084be1a652fd2625b1131ebc4521 ""
-  "Report.aux" 1761870572 6694 85dbe3188b1fcefcbff9285e62f60b3e "xelatex"
+  "Report.aux" 1761871042 6697 f4dc1af683075e0653eb72904085ac6e "xelatex"
   "Report.bbl" 1761868568 0 d41d8cd98f00b204e9800998ecf8427e "biber Report"
-  "Report.log" 1761870573 107195 c4d63976cd0a921795b8fc52ac3c1100 "xelatex"
-  "Report.run.xml" 1761870573 2304 872ccf3b7f21aede8cdf078590d49d7e "xelatex"
-  "Report.tex" 1761870562 27550 2c368dc0719fab3e67219678f968c4ad ""
-  "Report.toc" 1761870573 943 458512d07b91a59488c5967228909776 "xelatex"
-  "c:/Users/User/Documents/cs-programming-2025-labs/labs/reports/Report.tex" 1761870562 27550 2c368dc0719fab3e67219678f968c4ad ""
+  "Report.log" 1761871042 57648 19b769be1e43cbc1bb238ecf925847de "xelatex"
+  "Report.run.xml" 1761871042 2304 872ccf3b7f21aede8cdf078590d49d7e "xelatex"
+  "Report.tex" 1761871032 27576 3239edb96011c30deab2ef3d0afde045 ""
+  "Report.toc" 1761871042 943 6ab8820a95ec40887118238a0decdbb0 "xelatex"
+  "c:/Users/User/Documents/cs-programming-2025-labs/labs/reports/Report.tex" 1761871032 27576 3239edb96011c30deab2ef3d0afde045 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761315981 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1761324927 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1761313374 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -39,7 +39,6 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1761313374 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1761313374 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1761313374 1120 8b7d695260f3cff42e636090a8002094 ""
-  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1761313374 768 1321e9409b4137d6fb428ac9dc956269 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf" 1761311996 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-russian/russianb.ldf" 1761312058 27193 cd3440b122aaa8e30416378ef38b3173 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty" 1761311969 145885 784cdd1ebbc3dbacabd5ee30707617a3 ""
@@ -164,6 +163,7 @@
   "c:/texlive/2025/texmf-dist/web2c/texmf.cnf" 1761310691 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "c:/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1761325219 5936988 6e7950581ab8c01063decc1eb674d1b4 ""
   "c:/texlive/2025/texmf.cnf" 1761324991 713 e69b156964470283e0530f5060668171 ""
+  "listing_styles.tex" 1761833522 1827 275e64ba2c5b7320a0407e4e394e8d0b ""
   "vvsu.cls" 1761820952 22321 9f94fcac56077313d845abbc3f4bcb1d ""
   (generated)
   "Report.aux"
