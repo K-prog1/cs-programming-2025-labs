@@ -32,5 +32,23 @@ def task_5():
     print("Самый дорогой товар:", highest_price,"-", dicto[highest_price])
     print("Самый дешевый товар:", lowest_price,"-", dicto[lowest_price])
 
-task_5()
+def task_6():
+    list = ["propan","клертон",'флиртон',123,444,323]
+    dict = {}
+    for i in list:
+        dict[i] = i
+    print(dict)
+        
+def task_7():
+    rus = {"Russian":"Русский", "Doctor":"Доктор", "Piggy":"Свинка", "cucumber":"Огурец"}
+    a = input("Введите русские слова:")
+    c = None
+    for key, value in rus.items():
+        if value == a:
+            c = key
+    if c:
+        print(c)
+    else:
+        print("В словаре отсутсвует перевод этого слова")
+task_7()
 
