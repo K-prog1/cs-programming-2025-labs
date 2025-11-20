@@ -52,6 +52,7 @@ def task_7():
         print(c)
     else:
         print("В словаре отсутсвует перевод этого слова")
+<<<<<<< Updated upstream
 
 def task_8():
     data = ["Ножницы", "Бумага", "Ящерица", "Камень", "Спок"]
@@ -81,4 +82,69 @@ def task_9():
         
 
 
+=======
+>>>>>>> Stashed changes
 
+def task_8():
+    data = ["Ножницы", "Бумага", "Ящерица", "Камень", "Спок"]
+    HumanInput = input("Введите Камень-Ножницы-Бумага-Ящерица-Спок, что-то одно: ")
+    if HumanInput in data:
+        rand = random.choice(data)
+        if (HumanInput == "Ножницы" and rand == "Бумага") or \
+            (HumanInput == "Бумага" and rand == "Камень") \
+            or (HumanInput == "Камень" and rand == "Ящерица") \
+            or (HumanInput == "Ящерица" and rand == "Спока")\
+            or (HumanInput == "Спок" and rand == "Ножницы")\
+            or (HumanInput == "Ножницы" and rand == "Ящерица")\
+            or (HumanInput == "Ящерица" and rand == "Бумага")\
+            or (HumanInput == "Бумага" and rand == "Спок")\
+            or (HumanInput == "Спок" and rand == "Камень")\
+            or (HumanInput == "Камень" and rand == "Бумага"):
+            print("Вы победили")
+        else:
+            print("Лошпед продул")
+
+    else:
+        print("Нету таких значений из перечисленных")
+
+def task_9():
+
+    words = ["яблоко", "груша", "банан", "киви", "апельсин", "ананас"]
+    result = {}
+
+    for word in words:
+
+        first_letter = word[0]
+
+        if first_letter not in result:
+
+            result[first_letter] = []
+    
+        result[first_letter].append(word)
+
+    print(result)
+
+task_9()
+
+def task_10():
+    students = [("Анна", [5, 4, 5]), ("Иван", [3, 4, 4]), ("Мария", [5, 5, 5])]
+    average_grades = {}
+
+    for name, grades in students:
+        average = sum(grades) / len(grades)
+        average_grades[name] = average
+
+    print("Словарь со средними оценками:")
+    print(average_grades)
+
+
+    best_student = None
+    best_average = 0
+
+    for name, average in average_grades.items():
+        if average > best_average:
+            best_average = average
+            best_student = name
+
+    print(f"\nСтудент с наибольшей средней оценкой:")
+    print(f"Имя: {best_student}, Средний балл: {best_average}")
