@@ -112,6 +112,7 @@
     \item Цикл по индексам
     \item Проверка и замена
     \item Вывадение результата
+\end{vvsu_list}
 
 
 
@@ -149,5 +150,132 @@
 \end{vvsu_list}
 
 После выполнение программы взависимости от введеного числа, будет получен соотвествующий ответ
+
+\subsection{Задание 4}
+Создаем счетчик, создаем кортеж, перебираем элементы, проверяем тип, считаем числа, сравниваем счетчик с длиной, выводим результат. На рисунке \ref{fig:task4} представлен полученный код.
+\begin{vvsu_figure}{Листинг программы для задания 4}{fig:task4}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs5python/task4.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Создание счетчика и кортежа (1, "2", 3, "попа", 66, 43)
+    \item Перебор каждого элемента кортежа
+    \item Проверка типа элемента (int или нет)
+    \item Подсчет количества целых чисел (4 из 6)
+    \item Сравнение счетчика с длиной кортежа
+    \item Вывод <<В кортеже не только числа>>
+\end{vvsu_list}
+
+\subsection{Задание 5}
+   Создаем словарь, находим товар с максимальной ценой, находим товар с минимальной ценой, выводим результаты. На рисунке \ref{fig:task5} представлен полученный код.
+\begin{vvsu_figure}{Листинг программы для задания 5}{fig:task5}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs5python/task5.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Создание словаря товаров и цен
+    \item Поиск товара с максимальной ценой (Мясо козла -- 9999)
+    \item Поиск товара с минимальной ценой (Пепси-кола -- 1)
+    \item Вывод самого дорогого товара
+    \item Вывод самого дешевого товара
+\end{vvsu_list}
+
+\subsection{Задание 6}
+ Создаем список, создаем пустой словарь, перебираем элементы списка, добавляем каждый элемент как ключ и значение. На рисунке \ref{fig:task6} представлен полученный код.
+\begin{vvsu_figure}{Листинг программы для задания 6}{fig:task6}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs5python/task6.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Создание списка [<<propan>>, <<клертон>>, <<флиртон>>, 123, 444, 323]
+    \item Создание пустого словаря
+    \item Перебор каждого элемента списка
+    \item Добавление элемента как ключа и значения в словарь
+    \item Формирование словаря {элемент: элемент}
+    \item Вывод готового словаря
+\end{vvsu_list}
+
+\subsection{Задание 7}
+Создаем словарь переводов, получаем русское слово от пользователя, ищем английский перевод, выводим результат или сообщение об ошибке. На рисунке \ref{fig:task7} представлен полученный код.
+
+\begin{vvsu_figure}{Листинг программы для задания 7}{fig:task7}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs5python/task7.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Создание словаря английский→русский
+    \item Получение русского слова от пользователя
+    \item Перебор пар ключ-значение в словаре
+    \item Поиск совпадения с введенным словом
+    \item Вывод английского перевода или сообщения об ошибке
+\end{vvsu_list}
+
+\subsection{Задание 8}
+Создаем список вариантов, получаем выбор пользователя, генерируем случайный выбор компьютера, проверяем условия победы, выводим результат. На рисунке \ref{fig:task8} представлен полученный код.
+
+\begin{vvsu_figure}{Листинг программы для задания 8}{fig:task8}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs5python/task8.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Создание списка возможных вариантов
+    \item Получение выбора пользователя
+    \item Генерация случайного выбора компьютера
+    \item Проверка всех условий победы
+    \item Определение победителя или ничьи
+    \item Вывод результата игры
+\end{vvsu_list}
+
+\newpage
+\subsection{Задание 9}
+Создаем список слов, создаем пустой словарь, перебираем слова, извлекаем первую букву, добавляем слово в список соответствующей буквы. На рисунке \ref{fig:task9} представлен полученный код.
+
+\begin{vvsu_figure}{Листинг программы для задания 9}{fig:task9}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs5python/task9.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Создание списка слов
+    \item Создание пустого словаря для результата
+    \item Перебор каждого слова из списка
+    \item Извлечение первой буквы слова
+    \item Проверка наличия буквы в словаре
+    \item Добавление слова в список соответствующей буквы
+    \item Формирование словаря {буква: [слова]}
+\end{vvsu_list}
+
+\newpage
+
+\subsection{Задание 10}
+Создаем список студентов с оценками, вычисляем средние оценки, находим студента с лучшим средним баллом, выводим результаты. На рисунке \ref{fig:task10} представлен \\
+полученный код.
+
+
+\begin{vvsu_figure}{Листинг программы для задания 10}{fig:task10}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs5python/task10.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Создание списка студентов с оценками
+    \item Вычисление средней оценки для каждого студента
+    \item Запись средних оценок в словарь
+    \item Поиск студента с максимальной средней оценкой
+    \item Вывод словаря со средними оценками
+    \item Вывод лучшего студента и его балла
+\end{vvsu_list}
 
 \end{document}

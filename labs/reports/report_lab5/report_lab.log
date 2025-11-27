@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.25)  20 NOV 2025 18:16
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.25)  28 NOV 2025 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1066,7 +1066,10 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count536
 \@quotereset=\count537
-(./report_lab.aux)
+(./report_lab.aux
+Package babel Info: 'russian' activates 'russian' shorthands.
+(babel)             Reported on input line 10.
+)
 \openout1 = `report_lab.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -1090,11 +1093,7 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 Package hyperref Info: Link coloring OFF on input line 16.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+ (c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
  (c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PDF (HO)
@@ -1137,8 +1136,6 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 16.
 LaTeX Info: Redefining \th on input line 16.
 
 Package fontspec Info: 
@@ -1218,14 +1215,13 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `report_lab.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'report_lab.bbl' not found.
-
-No file report_lab.bbl.
+Package biblatex Info: ... file 'report_lab.bbl' found.
+ (./report_lab.bbl)
 Package biblatex Info: Reference section=0 on input line 16.
 Package biblatex Info: Reference segment=0 on input line 16.
 \everypar=\toks31
 Package translations Info: no dictionary file `translations-basic-dictionary-russian.trsl' found. on input line 16.
-(c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+ (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 16.
@@ -1234,15 +1230,7 @@ Package tocbasic Info: setting babel extension for `lol' on input line 16.
 \scr@dte@lstlisting@maxnumwidth=\skip140
 
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 34.
-
-(c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-utf32be.def
-File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) (c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [1
+[1
 
 ]
 
@@ -1276,8 +1264,7 @@ Package fontspec Info:
 
 ]
 
-[3]
-No file report_lab.toc.
+[3] (./report_lab.toc)
 \tf@toc=\write4
 \openout4 = `report_lab.toc'.
 
@@ -1295,26 +1282,17 @@ Overfull \hbox (3.57178pt too wide) in paragraph at lines 101--101
 []\TU/Arial(0)/m/n/13 1.1 [] 
  []
 
-
-LaTeX Warning: Reference `fig:task1' on page 3 undefined on input line 102.
-
 (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (../../ImgForLaTexReport/labs5python/task1.py)
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 118--118
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 119--119
 []\TU/Arial(0)/m/n/13 1.2 [] 
  []
 
-
-LaTeX Warning: Reference `fig:task2' on page 3 undefined on input line 120.
-
 (../../ImgForLaTexReport/labs5python/task2.py)
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 135--135
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 136--136
 []\TU/Arial(0)/m/n/13 1.3 [] 
  []
-
-
-LaTeX Warning: Reference `fig:task3' on page 3 undefined on input line 136.
 
 (../../ImgForLaTexReport/labs5python/task3.py)
 
@@ -1322,59 +1300,74 @@ LaTeX Warning: Reference `fig:task3' on page 3 undefined on input line 136.
 
 
 ]
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 154--154
+[]\TU/Arial(0)/m/n/13 1.4 [] 
+ []
 
-c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab5/report_lab.tex:153: LaTeX Error: \begin{enumerate} on input line 110 ended by \end{document}.
+(../../ImgForLaTexReport/labs5python/task4.py)
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 171--171
+[]\TU/Arial(0)/m/n/13 1.5 [] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
+(../../ImgForLaTexReport/labs5python/task5.py)
 
 [4]
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 187--187
+[]\TU/Arial(0)/m/n/13 1.6 [] 
+ []
 
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (1 not 6).
-               Rerun to correct this.
+(../../ImgForLaTexReport/labs5python/task6.py)
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 204--204
+[]\TU/Arial(0)/m/n/13 1.7 [] 
+ []
 
-(./report_lab.aux)
+(../../ImgForLaTexReport/labs5python/task7.py)
+
+[5]
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 221--221
+[]\TU/Arial(0)/m/n/13 1.8 [] 
+ []
+
+(../../ImgForLaTexReport/labs5python/task8.py)
+
+[6]
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 240--240
+[]\TU/Arial(0)/m/n/13 1.9 [] 
+ []
+
+(../../ImgForLaTexReport/labs5python/task9.py)
+
+[7]
+Overfull \hbox (4.80176pt too wide) in paragraph at lines 261--261
+[]\TU/Arial(0)/m/n/13 1.10 [] 
+ []
+
+(../../ImgForLaTexReport/labs5python/task10.py)
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 281.
+
+(c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-utf32be.def
+File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
+) (c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+) [8] (./report_lab.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                report_lab
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'report_lab.run.xml'.
 \openout1 = `report_lab.run.xml'.
 
- )
-(\end occurred inside a group at level 2)
-
-### semi simple group (level 2) entered at line 110 (\begingroup)
-### semi simple group (level 1) entered at line 110 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 36583 strings out of 468387
- 801792 string characters out of 5444258
- 1883303 words of memory out of 5000000
- 64685 multiletter control sequences out of 15000+600000
- 631209 words of font info for 99 fonts, out of 8000000 for 9000
+ 36683 strings out of 468387
+ 804140 string characters out of 5444258
+ 2001102 words of memory out of 5000000
+ 64761 multiletter control sequences out of 15000+600000
+ 631201 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 122i,12n,121p,11300b,32824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,12n,121p,11300b,32821s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report_lab.xdv (6 pages, 68376 bytes).
+Output written on report_lab.xdv (10 pages, 209136 bytes).
