@@ -13,7 +13,7 @@ def bank_sistem():
         print("Вклад не может быть меньше 30000 рублей")
     else:
     
-        c = vkladint0
+        c = vkladint0 - 30000
         god_stavka = 0
         while (c >= 10000) and (god_stavka < 0.05):
             c -= 10000
