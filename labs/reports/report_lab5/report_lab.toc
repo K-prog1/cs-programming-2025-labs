@@ -8,5 +8,5 @@
 \contentsline {subsection}{\numberline {1.6}Задание 6}{5}{subsection.1.6}%
 \contentsline {subsection}{\numberline {1.7}Задание 7}{5}{subsection.1.7}%
 \contentsline {subsection}{\numberline {1.8}Задание 8}{6}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}Задание 9}{7}{subsection.1.9}%
-\contentsline {subsection}{\numberline {1.10}Задание 10}{8}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.9}Задание 9}{8}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Задание 10}{9}{subsection.1.10}%

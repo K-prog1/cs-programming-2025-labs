@@ -1,0 +1,330 @@
+\documentclass{vvsu}
+
+\vvsuyear{2025}
+
+\usepackage{graphicx} % для изображений
+\usepackage{tabularray} % для таблиц
+\usepackage{siunitx} % для обозначений (процент, градус)
+\usepackage{listings} % для листингов кода
+
+\graphicspath{ {../ImgForLaTexReport/labs7python} }
+
+\author{Герцов Д.Е.}
+
+\input{listing_styles.tex}
+
+\begin{document}
+
+%Шапочка
+\vvsuhead{\linespread{1}\selectfont{}МИНОБРНАУКИ РОССИИ\\
+\vspace{10pt}Федеральное государственное бюджетное образовательное учреждение\\
+высшего образования\\
+\fontsize{13}{13}\selectfont{}<<ВЛАДИВОСТОКСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ>>\\
+(ФГБОУ ВО <<ВВГУ>>)\\
+\vspace{10pt}\fontsize{12}{12}\selectfont{}ИНСТИТУТ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ И АНАЛИЗА ДАННЫХ\\
+КАФЕДРА ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ И СИСТЕМ}
+
+\title{Отчет\\по лабораторной работе №7}
+\subtitle{по дисциплине\\<<Информатика и программирование>>}
+
+% Участники работы
+\member{Студент\\ гр. БИН-25-3}{Герцов Д.Е.}
+\member{Ассистент\\ преподавателя}{М.В. Водяницкий}
+
+\maketitle
+
+\begin{addition}{Задание}
+    Реализовать обработку данных с использованием функций высшего порядка (`map`, `filter`, `sorted`, `max`) и лямбда-выражений. Все задания основаны на тематике Фонда SCP.
+
+    \textit{\textbf{Задание 1.}}
+    Имеется список объектов Фонда с указанием уровня угрозы:
+    \begin{verbatim}
+    objects = [
+        ("Containment Cell A", 4),
+        ("Archive Vault", 1),
+        ("Bio Lab Sector", 3),
+        ("Observation Wing", 2)
+    ]
+    \end{verbatim}
+    Используя `sorted` и лямбда-выражение, отсортируйте объекты по возрастанию уровня угрозы.
+
+    \textit{\textbf{Задание 2.}}
+    Дан список сотрудников Фонда с количеством проведённых смен и стоимостью одной смены:
+    \begin{verbatim}
+    staff_shifts = [
+        {"name": "Dr. Shaw", "shift_cost": 120, "shifts": 15},
+        {"name": "Agent Torres", "shift_cost": 90, "shifts": 22},
+        {"name": "Researcher Hall", "shift_cost": 150, "shifts": 10}
+    ]
+    \end{verbatim}
+    Используя `map` и лямбда-выражение, создайте список общей стоимости работы каждого сотрудника. Затем найдите максимальную стоимость с помощью `max`.
+
+    \textit{\textbf{Задание 3.}}
+    Дан список персонала с уровнем допуска:
+    \begin{verbatim}
+    personnel = [
+        {"name": "Dr. Klein", "clearance": 2},
+        {"name": "Agent Brooks", "clearance": 4},
+        {"name": "Technician Reed", "clearance": 1}
+    ]
+    \end{verbatim}
+    Используя `map` и лямбда-выражение, создайте новый список, где каждому сотруднику добавляется категория допуска: \\
+    "Restricted" — уровень 1, \\
+    "Confidential" — уровни 2–3, \\
+    "Top Secret" — уровень 4 и выше. \\
+    Результат должен быть списком словарей.
+
+    \textit{\textbf{Задание 4.}}
+    Дан список зон Фонда с указанием времени активности (в часах):
+    \begin{verbatim}
+    zones = [
+        {"zone": "Sector-12", "active_from": 8, "active_to": 18},
+        {"zone": "Deep Storage", "active_from": 0, "active_to": 24},
+        {"zone": "Research Wing", "active_from": 9, "active_to": 17}
+    ]
+    \end{verbatim}
+    Используя `filter` и лямбда-выражение, выберите зоны, которые полностью работают в дневной период (с 8 до 18 включительно).
+
+    \textit{\textbf{Задание 5.}}
+    Фонд анализирует служебные отчёты. Некоторые содержат внешние ссылки, которые должны быть удалены. \\
+    Используя `filter` и `map` с лямбда-выражениями:
+    \begin{itemize}
+        \item Отберите отчёты, содержащие ссылки (`http` или `https`)
+        \item Преобразуйте их так, чтобы вместо ссылки отображалось \texttt{[ДАННЫЕ УДАЛЕНЫ]}
+    \end{itemize}
+
+    \textit{\textbf{Задание 6.}}
+    Дан список SCP-объектов с указанием класса содержания:
+    \begin{verbatim}
+    scp_objects = [
+        {"scp": "SCP-096", "class": "Euclid"},
+        {"scp": "SCP-173", "class": "Euclid"},
+        {"scp": "SCP-055", "class": "Keter"},
+        {"scp": "SCP-999", "class": "Safe"},
+        {"scp": "SCP-3001", "class": "Keter"}
+    ]
+    \end{verbatim}
+    Используя `filter` и лямбда-выражение, сформируйте список SCP-объектов, требующих усиленных мер содержания (все, кроме класса "Safe").
+
+    \textit{\textbf{Задание 7.}}
+    Дан список инцидентов с количеством задействованного персонала:
+    \begin{verbatim}
+    incidents = [
+        {"id": 101, "staff": 4},
+        {"id": 102, "staff": 12},
+        {"id": 103, "staff": 7},
+        {"id": 104, "staff": 20}
+    ]
+    \end{verbatim}
+    Используя `sorted` и лямбда-выражение, отсортируйте инциденты по количеству персонала и оставьте только три наиболее ресурсоёмких.
+
+    \textit{\textbf{Задание 8.}}
+    Дан список протоколов безопасности и их уровней критичности:
+    \begin{verbatim}
+    protocols = [
+        ("Lockdown", 5),
+        ("Evacuation", 4),
+        ("Data Wipe", 3),
+        ("Routine Scan", 1)
+    ]
+    \end{verbatim}
+    Используя `map` и лямбда-выражение, создайте список строк вида: \\
+    \texttt{"Protocol Lockdown — Criticality 5"}.
+
+    \textit{\textbf{Задание 9.}}
+    Имеется список смен охраны (в часах): \texttt{[6, 12, 8, 24, 10, 4]}. \\
+    Используя `filter` и лямбда-выражение, выберите смены длительностью от 8 до 12 часов включительно.
+
+    \textit{\textbf{Задание 10.}}
+    Дан список сотрудников с результатами психологической оценки:
+    \begin{verbatim}
+    evaluations = [
+        {"name": "Agent Cole", "score": 78},
+        {"name": "Dr. Weiss", "score": 92},
+        {"name": "Technician Moore", "score": 61},
+        {"name": "Researcher Lin", "score": 88}
+    ]
+    \end{verbatim}
+    Используя `max` и лямбда-выражение, определите сотрудника с наивысшей оценкой. \\
+    Результатом должно быть имя сотрудника и его балл.
+
+\end{addition}
+
+\toc
+
+\section{Выполнение работы}
+
+\subsection{Задание 1}
+Реализована сортировка списка объектов по возрастанию уровня угрозы с использованием функции \texttt{sorted} и лямбда-выражения. Сортировка выполняется по второму элементу кортежа. На рисунке \ref{fig:task1} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 1}{fig:task1}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task1.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Определение списка объектов с уровнями угрозы
+    \item Использование \texttt{sorted} с ключом \texttt{lambda x: x[1]}
+    \item Вывод отсортированного списка
+\end{vvsu_list}
+
+После выполнения программы объекты будут упорядочены от наименее угрожающих к наиболее опасным.
+
+\subsection{Задание 2}
+Реализован расчёт общей стоимости работы каждого сотрудника с использованием \texttt{map} и лямбда-выражения. Также найдена максимальная стоимость среди всех сотрудников. На рисунке \ref{fig:task2} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 2}{fig:task2}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task2.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Извлечение стоимости смены с помощью \texttt{map}
+    \item Преобразование в список
+    \item Нахождение максимального значения с помощью \texttt{max}
+    \item Вывод стоимости и максимального значения
+\end{vvsu_list}
+
+После выполнения программы будет получен список стоимостей и выделено максимальное значение.
+
+\subsection{Задание 3}
+Реализовано добавление категории допуска к каждому сотруднику на основе его уровня допуска с использованием \texttt{map} и условного лямбда-выражения. На рисунке \ref{fig:task3} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 3}{fig:task3}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task3.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Обработка каждого сотрудника через \texttt{map}
+    \item Присвоение категории в зависимости от значения \texttt{clearance}
+    \item Формирование нового списка словарей с полем \texttt{category}
+    \item Вывод результата
+\end{vvsu_list}
+
+После выполнения программы каждый сотрудник будет иметь соответствующую категорию секретности.
+
+\subsection{Задание 4}
+Реализован отбор зон, полностью работающих в дневное время (с 8 до 18 часов), с использованием \texttt{filter} и лямбда-выражения. На рисунке \ref{fig:task4} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 4}{fig:task4}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task4.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Фильтрация зон по условию: \texttt{active\_from >= 8} и \texttt{active\_to <= 18}
+    \item Извлечение только названий зон (в текущей реализации — ошибка; корректно: возвращать весь словарь)
+    \item Вывод отфильтрованных зон
+\end{vvsu_list}
+
+После выполнения программы будут выведены зоны, работающие строго в дневное время.
+
+\subsection{Задание 5}
+Реализована обработка служебных отчётов: отбор тех, что содержат HTTP/HTTPS-ссылки, и их очистка с заменой ссылок на \texttt{[ДАННЫЕ УДАЛЕНЫ]} с использованием регулярных выражений. На рисунке \ref{fig:task5} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 5}{fig:task5}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task5.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Фильтрация отчётов, содержащих \texttt{http://} или \texttt{https://}
+    \item Замена всех URL на \texttt{[ДАННЫЕ УДАЛЕНЫ]} с помощью \texttt{re.sub}
+    \item Формирование нового списка очищённых отчётов
+    \item Вывод результата
+\end{vvsu_list}
+
+После выполнения программы все внешние ссылки будут надёжно удалены из отчётов.
+
+\subsection{Задание 6}
+Реализован отбор SCP-объектов, требующих усиленных мер содержания (все, кроме класса \texttt{"Safe"}), с использованием \texttt{filter} и лямбда-выражения. На рисунке \ref{fig:task6} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 6}{fig:task6}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task6.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Фильтрация объектов по условию: \texttt{class != "Safe"}
+    \item Сохранение исходной структуры словарей
+    \item Вывод списка опасных SCP-объектов
+\end{vvsu_list}
+
+После выполнения программы будет получен список всех объектов, кроме безопасных.
+
+\subsection{Задание 7}
+Реализована сортировка инцидентов по количеству задействованного персонала в порядке убывания и выбор трёх наиболее ресурсоёмких с использованием \texttt{sorted} и среза. На рисунке \ref{fig:task7} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 7}{fig:task7}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task7.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Сортировка списка инцидентов по ключу \texttt{staff} в обратном порядке
+    \item Выбор первых трёх элементов с помощью среза \texttt{[:3]}
+    \item Вывод топ-3 инцидентов
+\end{vvsu_list}
+
+После выполнения программы будут выведены три самых масштабных инцидента.
+
+\subsection{Задание 8}
+Реализовано форматирование списка протоколов безопасности в читаемые строки с использованием \texttt{map} и лямбда-выражения. На рисунке \ref{fig:task8} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 8}{fig:task8}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task8.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Преобразование каждого кортежа в строку требуемого формата
+    \item Использование f-строк внутри лямбда-выражения
+    \item Вывод списка отформатированных протоколов
+\end{vvsu_list}
+
+После выполнения программы будет получен список протоколов в стандартизированном виде.
+
+\subsection{Задание 9}
+Реализован отбор смен охраны длительностью от 8 до 12 часов включительно с использованием \texttt{filter} и лямбда-выражения. На рисунке \ref{fig:task9} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 9}{fig:task9}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task9.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Фильтрация списка \texttt{shifts} по условию \texttt{8 <= x <= 12}
+    \item Сохранение только подходящих значений
+    \item Вывод результата
+\end{vvsu_list}
+
+После выполнения программы будут выведены только стандартные дневные смены.
+
+\subsection{Задание 10}
+Реализован поиск сотрудника с наивысшей психологической оценкой с использованием \texttt{max} и лямбда-выражения. На рисунке \ref{fig:task10} представлен код программы.
+
+\begin{vvsu_figure}{Листинг программы для задания 10}{fig:task10}
+    \begin{minipage}{.75\textwidth}
+        \lstinputlisting[language=Python,basicstyle=\fontsize{10}{10}\linespread{1}\selectfont\ttfamily]{../../ImgForLaTexReport/labs7python/task10.py}
+    \end{minipage}
+\end{vvsu_figure}
+
+\begin{vvsu_list}
+    \item Поиск словаря с максимальным значением \texttt{score}
+    \item Использование ключа \texttt{key=lambda x: x["score"]}
+    \item Вывод полной информации о лучшем сотруднике
+\end{vvsu_list}
+
+После выполнения программы будет выведено имя и оценка сотрудника с наивысшим показателем.
+
+\end{document}

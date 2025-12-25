@@ -1,27 +1,27 @@
 # Fdb version 4
-["biber report_lab"] 0 "report_lab.bcf" "report_lab.bbl" "report_lab" 1766671644.70477 -1
-  "report_lab.bcf" 1766671643 107247 7e9aed61e0ec04b9544b5e8ed23ba8db "xelatex"
+["biber report_lab"] 1766679070.00484 "report_lab.bcf" "report_lab.bbl" "report_lab" 1766679238.81772 0
+  "report_lab.bcf" 1766679237 107247 7e9aed61e0ec04b9544b5e8ed23ba8db "xelatex"
   (generated)
   "report_lab.bbl"
   "report_lab.blg"
   (rewritten before read)
-["xdvipdfmx"] 1766671643.85323 "report_lab.xdv" "report_lab.pdf" "report_lab" 1766671644.71437 0
-  "report_lab.xdv" 1766671643 216744 2afc626e24014c0ad223c92c76e26c43 "xelatex"
+["xdvipdfmx"] 1766679237.91915 "report_lab.xdv" "report_lab.pdf" "report_lab" 1766679238.82743 0
+  "report_lab.xdv" 1766679237 259364 165c4fb2faa8d12554e671efaf474dbd "xelatex"
   (generated)
   "report_lab.pdf"
   (rewritten before read)
-["xelatex"] 1766671638.89586 "c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab5/report_lab.tex" "report_lab.xdv" "report_lab" 1766671644.705 0
-  "../../ImgForLaTexReport/labs5python/task1.py" 1764284306 168 223d9e64ae500f28a04f212637039a1c ""
-  "../../ImgForLaTexReport/labs5python/task10.py" 1764284306 729 557232f0b2ed53689fe3f1bc1cb7ad45 ""
-  "../../ImgForLaTexReport/labs5python/task2.py" 1764284306 107 ef6bbc45e5828ed3bb46c148cf5112e5 ""
-  "../../ImgForLaTexReport/labs5python/task3.py" 1764284306 86 f57665201d7794b4148d8a07844783cc ""
-  "../../ImgForLaTexReport/labs5python/task4.py" 1764284306 307 03c553685b9ec235a10e2aa8cd5fb66a ""
-  "../../ImgForLaTexReport/labs5python/task5.py" 1764284306 385 339ec68b14a747dbfe94d259bc3795d2 ""
-  "../../ImgForLaTexReport/labs5python/task6.py" 1764284306 155 d0506d5c02e5c22452eb7a1a4d24fe5f ""
-  "../../ImgForLaTexReport/labs5python/task7.py" 1764284306 418 4a42d2f178e2542fb1e4edfd11dafe8b ""
-  "../../ImgForLaTexReport/labs5python/task8.py" 1764284306 1274 91206e1348f89459ed39c85c3fe21e4e ""
-  "../../ImgForLaTexReport/labs5python/task9.py" 1764284306 351 d58db085de20227aa681458cd1b9dc7d ""
-  "c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab5/report_lab.tex" 1766671633 18514 b9d5489d5e2b2dcc24e6da04b1de706b ""
+["xelatex"] 1766679232.68566 "c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab7/report_lab.tex" "report_lab.xdv" "report_lab" 1766679238.81797 0
+  "../../ImgForLaTexReport/labs7python/task1.py" 1766678805 201 f880001a53a89646dd6ca42446e25a75 ""
+  "../../ImgForLaTexReport/labs7python/task10.py" 1766678910 315 0a67c44e2c3344e4389c602a562bf7de ""
+  "../../ImgForLaTexReport/labs7python/task2.py" 1766678817 376 5012cdc0e7150622134b4c8887d856e6 ""
+  "../../ImgForLaTexReport/labs7python/task3.py" 1766678830 424 97ab22f1a3343566e56ed8de088d9a55 ""
+  "../../ImgForLaTexReport/labs7python/task4.py" 1766678837 355 dbc6f6f861b7742ab2937a2469cee698 ""
+  "../../ImgForLaTexReport/labs7python/task5.py" 1766678860 1746 56e4cc000dcb07af165220d320ff8e73 ""
+  "../../ImgForLaTexReport/labs7python/task6.py" 1766678872 381 1dc76063efef563a4c3f3dbe18d983cf ""
+  "../../ImgForLaTexReport/labs7python/task7.py" 1766678884 323 c16aed2371805b79722e5115bdc7d2f1 ""
+  "../../ImgForLaTexReport/labs7python/task8.py" 1766678892 239 ab69782b1ad2a1c7eff19c834cad6aa2 ""
+  "../../ImgForLaTexReport/labs7python/task9.py" 1766678903 140 e62c28f40ff3bb15b8dc5bcb73bc8ca9 ""
+  "c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab7/report_lab.tex" 1766679226 20109 d545f7ddbef9289364129c52f2e54fd9 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761315981 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1761324927 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1761313374 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -158,12 +158,12 @@
   "c:/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1761325219 5936988 6e7950581ab8c01063decc1eb674d1b4 ""
   "c:/texlive/2025/texmf.cnf" 1761324991 713 e69b156964470283e0530f5060668171 ""
   "listing_styles.tex" 1764284306 1891 275e64ba2c5b7320a0407e4e394e8d0b ""
-  "report_lab.aux" 1766671643 6719 1f061271b15e4212e7e2c39a11d4c56f "xelatex"
-  "report_lab.bbl" 1764284437 0 d41d8cd98f00b204e9800998ecf8427e "biber report_lab"
-  "report_lab.log" 1766671643 57764 eac3b7a5d81ed506470c7f222db7e2c0 "xelatex"
-  "report_lab.run.xml" 1766671643 2332 4e3a0081980ab59b0c16c16bc23a6ce6 "xelatex"
-  "report_lab.tex" 1766671633 18514 b9d5489d5e2b2dcc24e6da04b1de706b ""
-  "report_lab.toc" 1766671643 942 b3a1165bac690db2427bf982cf1ae714 "xelatex"
+  "report_lab.aux" 1766679237 6719 7c4b0939fe61e5aa264920d2a88ea9cd "xelatex"
+  "report_lab.bbl" 1766679072 0 d41d8cd98f00b204e9800998ecf8427e "biber report_lab"
+  "report_lab.log" 1766679237 57766 603b4fb29e28929dcd941403862e0e75 "xelatex"
+  "report_lab.run.xml" 1766679237 2332 4e3a0081980ab59b0c16c16bc23a6ce6 "xelatex"
+  "report_lab.tex" 1766679226 20109 d545f7ddbef9289364129c52f2e54fd9 ""
+  "report_lab.toc" 1766679237 942 a45708c469b3c35a7334ca2b174281bc "xelatex"
   "vvsu.cls" 1764284307 22923 9f94fcac56077313d845abbc3f4bcb1d ""
   (generated)
   "report_lab.aux"
