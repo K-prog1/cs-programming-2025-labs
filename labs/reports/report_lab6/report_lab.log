@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.25)  25 DEC 2025 20:33
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.25)  25 DEC 2025 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab5/report_lab.tex
-(c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab5/report_lab.tex
+**c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab6/report_lab.tex
+(c:/Users/User/Documents/Programming/cs-programming-2025-labs/labs/reports/report_lab6/report_lab.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
 (./vvsu.cls
@@ -1262,9 +1262,7 @@ Package fontspec Info:
 
 [2
 
-]
-
-[3] (./report_lab.toc)
+] (./report_lab.toc)
 \tf@toc=\write4
 \openout4 = `report_lab.toc'.
 
@@ -1273,86 +1271,59 @@ Package fontspec Info:
 [2
 
 ]
-Overfull \hbox (2.78613pt too wide) in paragraph at lines 97--97
+Overfull \hbox (2.78613pt too wide) in paragraph at lines 58--58
 []\TU/Arial(0)/m/n/14 1 [] 
  []
 
 
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 101--101
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 60--60
 []\TU/Arial(0)/m/n/13 1.1 [] 
  []
 
 (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (../../ImgForLaTexReport/labs5python/task1.py)
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 119--119
-[]\TU/Arial(0)/m/n/13 1.2 [] 
- []
-
-(../../ImgForLaTexReport/labs5python/task2.py)
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 136--136
-[]\TU/Arial(0)/m/n/13 1.3 [] 
- []
-
-(../../ImgForLaTexReport/labs5python/task3.py)
+) (../../ImgForLaTexReport/labs6python/task2.py)
 
 [3
 
 
 ]
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 154--154
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 77--77
+[]\TU/Arial(0)/m/n/13 1.2 [] 
+ []
+
+(../../ImgForLaTexReport/labs6python/task2.py)
+
+[4]
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 95--95
+[]\TU/Arial(0)/m/n/13 1.3 [] 
+ []
+
+(../../ImgForLaTexReport/labs6python/task3.py)
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 111--111
 []\TU/Arial(0)/m/n/13 1.4 [] 
  []
 
-(../../ImgForLaTexReport/labs5python/task4.py)
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 171--171
+(../../ImgForLaTexReport/labs6python/task4.py)
+
+[5]
+Overfull \hbox (3.57178pt too wide) in paragraph at lines 129--129
 []\TU/Arial(0)/m/n/13 1.5 [] 
  []
 
-(../../ImgForLaTexReport/labs5python/task5.py)
-
-[4]
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 187--187
-[]\TU/Arial(0)/m/n/13 1.6 [] 
- []
-
-(../../ImgForLaTexReport/labs5python/task6.py)
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 204--204
-[]\TU/Arial(0)/m/n/13 1.7 [] 
- []
-
-(../../ImgForLaTexReport/labs5python/task7.py)
-
-[5]
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 221--221
-[]\TU/Arial(0)/m/n/13 1.8 [] 
- []
-
-(../../ImgForLaTexReport/labs5python/task8.py)
+(../../ImgForLaTexReport/labs6python/task5.py)
 
 [6]
-Overfull \hbox (3.57178pt too wide) in paragraph at lines 240--240
-[]\TU/Arial(0)/m/n/13 1.9 [] 
- []
-
-(../../ImgForLaTexReport/labs5python/task9.py)
-
-[7]
-Overfull \hbox (4.80176pt too wide) in paragraph at lines 261--261
-[]\TU/Arial(0)/m/n/13 1.10 [] 
- []
-
-(../../ImgForLaTexReport/labs5python/task10.py)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 281.
+(hyperref)                removing `\\' on input line 146.
 
 (c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 ) (c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [8] (./report_lab.aux)
+) [7] (./report_lab.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
@@ -1362,12 +1333,12 @@ Package logreq Info: Writing requests to 'report_lab.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36683 strings out of 468387
- 804140 string characters out of 5444258
- 2001101 words of memory out of 5000000
- 64761 multiletter control sequences out of 15000+600000
+ 36630 strings out of 468387
+ 802486 string characters out of 5444258
+ 2001792 words of memory out of 5000000
+ 64724 multiletter control sequences out of 15000+600000
  631201 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,12n,121p,11300b,32821s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report_lab.xdv (10 pages, 209136 bytes).
+Output written on report_lab.xdv (8 pages, 173244 bytes).
