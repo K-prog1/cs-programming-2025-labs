@@ -105,7 +105,7 @@ class Character:
 
     def gain_exp(self, amount):
         self.exp += amount
-        needed = self.level * 10 
+        needed = self.level * 50
         if self.exp >= needed:
             self.level_up()
     
@@ -119,9 +119,9 @@ class Character:
         while self.stat_points > 0:
             print(f"\nУ вас {self.stat_points} очко(а/ов). Куда вложите?")
             print("1. +5 Здоровья")
-            print("2. +3 Защиты")
-            print("3. +3 Атаки")
-            print("4. +3 Ловкости")
+            print("2. +1 Защиты")
+            print("3. +1 Атаки")
+            print("4. +1 Ловкости")
             
             choice = input("Выбор (1-4): ").strip()
             if choice == "1":
@@ -129,13 +129,13 @@ class Character:
                 self.health += 5  
                 self.stat_points -= 1
             elif choice == "2":
-                self.defense += 3
+                self.defense += 1
                 self.stat_points -= 1
             elif choice == "3":
-                self.damage += 3
+                self.damage += 1
                 self.stat_points -= 1
             elif choice == "4":
-                self.agility += 3
+                self.agility += 1
                 self.stat_points -= 1
             else:
                 print("Цифру от 1 до 4, мудила!")
