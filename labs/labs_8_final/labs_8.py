@@ -283,7 +283,6 @@ class PowerUpper(Enemy):
 def generate_enemy(floor):
     enemies = [Vsosun(), Regenerator(), PowerUpper(), AlwaysComeBack(), PingVin735()]
     enemy = random.choice(enemies)
-    # Усиление с этажом
     enemy.health += floor * 5
     enemy.damage += floor * 2
     enemy.exp_reward += floor * 3
