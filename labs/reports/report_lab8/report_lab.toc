@@ -1,6 +1,6 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {1}Введение}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Принципы проектирования}{3}{subsection.1.1}%
+\contentsline {part}{Введение}{3}{part.1}%
+\contentsline {section}{\numberline {1}Принципы проектирования}{4}{section.1}%
 \contentsline {section}{\numberline {2}Выполнение работы}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Класс Character — инициализация и свойства}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Класс Character — методы взаимодействия}{5}{subsection.2.2}%
@@ -11,4 +11,5 @@
 \contentsline {subsection}{\numberline {2.7}Создание персонажа}{11}{subsection.2.7}%
 \contentsline {subsection}{\numberline {2.8}Основной игровой цикл}{11}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}Боевая система и механики}{13}{subsection.2.9}%
-\contentsline {section}{\numberline {3}Заключение}{15}{section.3}%
+\contentsline {section}{\numberline {3}Тестирование}{15}{section.3}%
+\contentsline {part}{Заключение}{16}{part.2}%
